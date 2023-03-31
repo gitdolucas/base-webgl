@@ -1,7 +1,7 @@
 
-# IFC - Base WEBGL
+# IFC - Shader WEBGL
 
-Este projeto tem como objetivo montar um SPA para o desenvolvimento em WEBGL.
+Este projeto tem como objetivo montar um SPA para o desenvolvimento em WEBGL, aplicando um shader em uma bufferGeometry e replicar o triângulo do [OpenGL](https://learnopengl.com/Getting-started/Hello-Triangle).
 
   
 
@@ -14,7 +14,7 @@ Para executar este projeto em sua máquina local, siga as instruções abaixo:
 
 - Clone este repositório em sua máquina local usando o comando:  
 
-`git clone https://github.com/gitdolucas/base-webgl.git`
+`git clone https://github.com/gitdolucas/shader-webgl.git`
 
   
 
