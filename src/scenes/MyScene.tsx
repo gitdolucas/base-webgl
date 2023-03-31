@@ -9,13 +9,13 @@ export function MyScene() {
                 <color attach="background" args={['#333']} />
 
                 {/* Grid cartesiano*/}
-                {/* Para gerar um set novo de dados, clique no grid. */}
                 <gridHelper
                     position={[0, 0, 0]}
-                    // args={[20, 10, "#ff6239", '#a19cb6']}
                     args={[10, 10, "#84beee", '#202020']}
                     rotation={[Math.PI / 2, 0, 0]}
-                />
+                    />
+                
+                {/* Objetos */}
                 <Sphere args={[.25, 12, 12]} position={[0, 0, 0]} >
                     <meshBasicMaterial color={"#fff"} />
                 </Sphere>
@@ -29,6 +29,7 @@ export function MyScene() {
                 {/* Controle de câmera */}
                 <OrbitControls />
 
+                {/* Status app */}
                 <Stats showPanel={0} className="stats"  />
             </Canvas>
         </div>
