@@ -1,5 +1,6 @@
 import { OrbitControls, Sphere, Stats, Box } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
+import { Sword } from "../components/Sword";
 export function MyScene() {
 
     return (
@@ -16,15 +17,7 @@ export function MyScene() {
                     />
                 
                 {/* Objetos */}
-                <Sphere args={[.25, 12, 12]} position={[0, 0, 0]} >
-                    <meshBasicMaterial color={"#fff"} />
-                </Sphere>
-                <Box args={[.25, .25, .25]} position={[5, 0, 0]} >
-                    <meshBasicMaterial color={"#0ff"} />
-                </Box>
-                <Sphere args={[.25, 4, 2]} position={[0, 5, 0]} >
-                    <meshBasicMaterial color={"#ff0"} />
-                </Sphere>
+                <Sword />
 
                 {/* Controle de câmera */}
                 <OrbitControls />
